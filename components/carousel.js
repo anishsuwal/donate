@@ -75,10 +75,10 @@ const Carousel = ({ images }) => {
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
                     <div> 
-                    <p className="text-white text-[40px] font-bold leading-[60px] w-[700px]  uppercase">{image.description}</p>
+                    <p className="text-white xl:text-[40px] md:text-lg sm:text-xs font-bold xl:leading-[60px] w-[700px]  uppercase">{image.description}</p>
                     </div>
                     <div>
-                    <button className='bg-white text-[#1d0a5b] font-bold p-3 mt-10 '> DONATE NOW</button>
+                    <button className='bg-white text-[#1d0a5b] sm:text-xs font-bold p-2 xl:mt-10 sm:mt-5 '> DONATE NOW</button>
                     </div>
                   </div>
                 </div>

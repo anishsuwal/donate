@@ -23,7 +23,7 @@ export default function Navbar() {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className=' w-full mt-5  top-0 left-0 sticky p-1 z-50 bg-[#eeebe0] opacity-80
+    <div className=' w-full mt-5  top-0 left-0  p-1 z-50 bg-[#eeebe0] 
      border-b shadow-2xl border-[#948ba7] text-[#1d0a5b]'>
       <div className='flex items-center justify-between  '>
         <div className='font-bold text-2xl  flex items-center 
