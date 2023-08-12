@@ -40,8 +40,8 @@ const OurGoal = () => {
     <div className="flex flex-col">
       <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 text-[#f5f3ec] justify-center">
         {goalItems.map((item, index) => (
-          <div  className=" flex flex-col bg-[#1d0a5b] p-5 w-72 text-center">
-            <div key={index} className="h-[400px]">
+          <div key={index}  className=" flex flex-col bg-[#1d0a5b] p-5 w-72 text-center">
+            <div  className="h-[400px]">
               <div className="flex items-center text-center">{item.icon}</div>
               <div className="flex items-center text-center mt-5">
                 <p className="flex-1 text-lg">{item.title}</p>

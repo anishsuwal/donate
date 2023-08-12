@@ -55,8 +55,8 @@ const OurCauses = () => {
         <div className="flex flex-col">
             <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 text-white justify-center">
                 {causes.map((cause, index) => (
-                    <div className="flex flex-col bg-white ring-1 text-[#1d0a5b] w-72 text-center hover:bg-[#f5f3ec]">
-                        <div key={index} className="h-[530px]" >
+                    <div key={index} className="flex flex-col bg-white ring-1 text-[#1d0a5b] w-72 text-center hover:bg-[#f5f3ec]">
+                        <div  className="h-[530px]" >
                             <div className="flex items-center text-center">
                                 <Image src={cause.image} width={615} height={600} objectFit="none" />
                             </div>
