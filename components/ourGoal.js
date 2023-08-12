@@ -51,7 +51,7 @@ const OurGoal = () => {
             <div className="border-t ">
               <button
                 onClick={() => handleReadMore(index)}
-                className="text-blue-500 mt-5 ring-1 p-2 hover:underline focus:outline-none"
+                className="text-[#f5f3ec] mt-5 ring-1 p-2 focus:outline-none hover:bg-[#f5f3ec] hover:text-[#1d0a5b]  "
               >
                 {expandedItemIndex === index ? "Read Less" : "Read More"}
               </button> </div>

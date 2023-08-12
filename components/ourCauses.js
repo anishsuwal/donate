@@ -76,7 +76,7 @@ const OurCauses = () => {
                         <div className="border-t mt-5 ">
                             <button
                                 onClick={() => handleReadMore(index)}
-                                className="text-[#f5f3ec]  bg-[#1d0a5b]  ring-1 p-2 m-5  hover:underline focus:outline-none"
+                                className="text-[#f5f3ec]  bg-[#1d0a5b]  ring-1 p-2 m-5 hover:bg-[#f5f3ec] hover:text-[#1d0a5b]   focus:outline-none"
                             >
                                 DONATE NOW              </button> </div>
                     </div>
